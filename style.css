@@ -1,0 +1,29 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+
+}
+.chocolate-color{
+    color: chocolate;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 15%;
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+
+    }
