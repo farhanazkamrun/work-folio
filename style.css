@@ -3,13 +3,13 @@ body{
 font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 
 }
 .chocolate-color{
     color: chocolate;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -17,13 +17,91 @@ section{
     padding-left: 15%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
     background-color: coral;
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: white;
     border-radius: 5px;
+}
+h2{
+    font-size: 50px;
+    color: navy;
+    text-align: center;
+    padding-left: 20%;
+}
+.orange-color{
+    color: orange;
+}
+.mvg-item-1{
+    width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: palegreen;
+    border-radius: 5%;
+    margin: 5%;
 
-    }
+    
+
+}
+.mvg-item-2{
+    width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: peachpuff;
+    border-radius: 5%;
+    margin: 5%;
+    
+}
+.mvg-item-3{
+    width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: powderblue;
+    border-radius: 5%;
+    margin: 5%;
+
+}
+#image-container-1{
+    background-image: url(images/illustrators/illustrator-1.png);
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#image-container-2{
+    background-image: url(images/illustrators/illustrator-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#image-container-3{
+    background-image: url(images/illustrators/illustrator-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#text-line{
+    margin-left: 5%;
+    text-align: left;
+    line-height: 25px;
+}
+p{
+    font-size: 15px;
+
+
+}
+.coding{
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
