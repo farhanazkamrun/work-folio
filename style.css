@@ -1,9 +1,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
+ margin:0%;
 }
 h1{
-    font-size: 40px;
+    font-size: 25px;
+    text-align: justify;
 
 }
 .chocolate-color{
@@ -17,7 +19,7 @@ h1{
     padding-left: 15%;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -72,27 +74,26 @@ h2{
 }
 #image-container-1{
     background-image: url(images/illustrators/illustrator-1.png);
-    max-width: 100%;
-    background-size: contain;
+    width: 100%;
+    background-size: 150px 150px;
     background-repeat: no-repeat;
-
 }
 #image-container-2{
     background-image: url(images/illustrators/illustrator-2.png);
-    background-size: contain;
+    background-size: 150px 150px;
     background-repeat: no-repeat;
     width: 100%;
 }
 #image-container-3{
     background-image: url(images/illustrators/illustrator-3.png);
-    background-size: contain;
+    background-size: 150px 150px;
     background-repeat: no-repeat;
     width: 100%;
 }
 #text-line{
-    margin-left: 5%;
+    margin-right: 20%;
     text-align: left;
-    line-height: 25px;
+     line-height: 25px;
 }
 p{
     font-size: 15px;
@@ -104,4 +105,15 @@ p{
     margin-left: 5px;
 
 }
+
+/* footer p{
+    text-align: center;
+    background-color: firebrick;
+} */
+footer {
+    text-align: center;
+    color: white;
+    background-color: firebrick
+}
+
 
